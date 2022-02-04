@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Fitness(THAKUR)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('a.jpg.jpg');
+        background-attachment: fixed;
+        background-size: auto;
+        background-repeat: no-repeat;
+        z
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .left {
+        /* border:2px solid red; */
+        display: inline-block;
+        float: left;
+        margin: 5px 15px:
+    }
+
+    .left img {
+        width: 100px;
+
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    /*filter: invert(100%) it is help to change color image white to blake and blake to white */
+
+
+    .mid {
+        /* border:2px solid rgb(45, 130, 163); */
+        width: 57%;
+        display: flex;
+        align-items: center;
+        padding: 2px 3px;
+
+
+    }
+
+    .right {
+        /* border:2px solid rgb(27, 194, 152); */
+        display: inline-block;
+        position: fixed;
+        top: 10px;
+        right: 15px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* it is set to horizental positon*/
+        list-style: none;
+        /* it is remove ul an ol like122 and***/
+        margin: 3px 4px;
+        padding: 3px 5px;
+        font-size: 40px;
+
+    }
+
+    .navbar li a {
+        color: rgb(175, 26, 108);
+        text-decoration: none;
+        /* remove underlice words*/
+        display: flex;
+        align-items: center;
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        justify-self: center;
+        flex-direction: column;
+
+        ;
+        /* word size ajust*/
+    }
+
+    /* this methed is use both function same line */
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+        /* remove underlice words*/
+    }
+
+    .bat {
+        margin: 9px 2px;
+        background-color: rgb(151, 80, 80);
+        color: black;
+        padding: 5px 20px;
+        font-size: 25px;
+        /* border:2px solid rgb(209, 181, 110); */
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+
+
+    }
+
+    /*css reset*/
+    .bat:hover {
+        background-color: rgb(180, 111, 111);
+    }
+
+    .contaner {
+        /* border:4px solid black; */
+        margin: 305px 646px;
+        padding: 1px 1px;
+        text-align: center;
+        font-size: 25px;
+        color: #6fdada;
+        font-family: fantasy;
+        background-color: rgb(175, 148, 169);
+        border-radius: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+
+    .form-group input {
+        /* border:1 solid burlywood; */
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 20px;
+        font-family: serif;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .form {
+        margin: auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="p.png">
+            <div>Fitness with THAKUR</div>
+
+        </div>
+        <!-- mid for navbar -->
+
+        <nav class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <!-- "active" it is use to show you are active on thie page  -->
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Fitness calulator</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- right for button -->
+        <div class="right">
+            <button class="bat">Call now</button>
+            <button class="bat">Email us</button>
+        </div>
+    </header>
+    <div class="contaner">Welcome To GYM
+        <form>
+            <div class="form-group">
+                <input type="text" class="button" name="your name" placeholder=" your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="button" name="your age" placeholder=" your age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="button" name="your email" placeholder=" your email">
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="button" name="your contact" placeholder=" your contact">
+            </div>
+            <button class="bat">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
