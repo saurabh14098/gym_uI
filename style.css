@@ -1,0 +1,117 @@
+<style>
+ body{
+     margin: 0px;
+     padding: 0px;
+     background:url('a.jpg.jpg');
+     background-attachment: fixed;
+     background-size: auto;
+     background-repeat: no-repeat;
+     
+ }
+ .left div{
+     text-align: center;
+ }
+ .left{ border:2px solid red;
+    display: inline-block;
+   float:left;
+   margin:5px 15px:
+ }
+ .left img{ width:100px;
+
+
+ }
+ .left div{
+     text-align: center;
+ }
+ 
+    /*filter: invert(100%) it is help to change color image white to blake and blake to white */ 
+
+
+ .mid{
+    border:2px solid rgb(45, 130, 163);
+    width: 57%;
+    display: inline-block;
+    position: sticky;
+    top:10px;
+    left: 250px;
+    box-sizing: border-box;
+    
+    
+ }
+ .right{
+    border:2px solid rgb(27, 194, 152);
+    display: inline-block;
+  position: fixed;
+ top:10px; right:15px; 
+   box-sizing: border-box;
+ }
+ .navbar li{
+     display: inline-block;/* it is set to horizental positon*/
+     list-style: none; /* it is remove ul an ol like122 and***/
+     margin: 1px 3px;
+     font-size: 44px;
+    font-family: cursive;
+
+ }
+ 
+ .navbar li a{
+    color:aliceblue;
+    text-decoration: none;/* remove underlice words*/
+    padding: 2px 3px;margin:100px 30px;
+    font-size: 30px;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+    
+   ;/* word size ajust*/
+ }/* this methed is use both function same line */
+ .navbar li a:hover, .navbar li a.active{
+     color:grey;
+    text-decoration: underline;/* remove underlice words*/
+     } 
+
+     .bat{
+         margin: 9px 2px;
+         background-color:rgb(151, 80, 80);
+         color:black;
+         padding: 5px 20px;
+         font-size: 25px;
+         border:2px solid rgb(209, 181, 110);
+         border-radius: 10px;
+         cursor: pointer;
+         display: inline-block;
+         
+        
+     }   /*css reset*/
+     .bat:hover{
+         background-color: rgb(180, 111, 111);
+     }
+     .contaner{
+         border:4px solid black;
+         margin:305px 646px;
+         padding: 1px 1px;
+         text-align: center;
+         font-size: 25px;
+         color: #6fdada;
+         font-family: fantasy;
+         background-color: rgb(175, 148, 169);
+         border-radius: 10px;
+         box-sizing: border-box;
+         display: inline-block;
+     }
+     .form-group input{
+         border:1 solid burlywood;
+         text-align: center;
+         display: inline-block;
+         font-size: 12px;
+         border-radius: 20px;
+         font-family: serif;
+       box-sizing: border-box;
+       text-align: center;
+     }
+     .form{
+        margin:auto;
+         
+     }
+
+</style>
